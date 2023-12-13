@@ -5,7 +5,7 @@ const getTotalBalanceByGender = (users, gender) => {
         .reduce((total, balance) => total + balance, 0);
 }
 
-const allUsers = [
+const allTheUsers = [
     {
     name: "Moore Hensley",
     gender: "male",
@@ -43,6 +43,6 @@ const allUsers = [
   }
 ];
 
-console.log(getTotalBalanceByGender(allUsers, "male")); // 12053
+console.log(getTotalBalanceByGender(allTheUsers, "male")); // 12053
 
-console.log(getTotalBalanceByGender(allUsers, "female")); // 8863
+console.log(getTotalBalanceByGender(allTheUsers, "female")); // 8863
